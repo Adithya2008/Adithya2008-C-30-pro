@@ -37,7 +37,7 @@
     else{
     World.remove(world,this.body);
     push()
-    tint(255,this.visiblity)
+    
     this.visiblity=this.visiblity-5;
     image(this.image,this.body.position.x,this.body.position.y,50,50);
     pop();
